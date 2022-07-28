@@ -5,3 +5,16 @@ body {
 :root {
     --primary-c: #289BDE;
 }
+
+.banner-caption {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(29, 29, 29, 70%);
+}
+
+.mobile-only {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -233,8 +233,43 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum labore earum dolorum.</p>
                     </div>
                     <div class="col col-lg-4 text-center">
-                        <button type="button" class="btn bg-light text-success py-2 px-3 text-capitalize">register
+                        <button type="button" class="btn bg-light text-success py-2 px-3 text-capitalize"
+                            data-bs-toggle="modal" data-bs-target="#register">register
                             now</button>
+                        <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-black" id="exampleModalLabel">Give Your Details</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3 text-start">
+                                                <label for="name" class="col-form-label text-black">Name :</label>
+                                                <input type="text" class="form-control text-black" id="name">
+                                            </div>
+                                            <div class="mb-3 text-start">
+                                                <label for="name" class="col-form-label text-black">Email : </label>
+                                                <input type="email" class="form-control text-black" id="name">
+                                            </div>
+                                            <div class="mb-3 text-start">
+                                                <label for="message-text"
+                                                    class="col-form-label text-black">Message:</label>
+                                                <textarea class="form-control text-black" id="message-text"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -336,7 +371,7 @@
     </section>
     <!-- frequntly ask qus section end -->
     <!-- trusted companies section start -->
-    <section class="py-3 d-none d-lg-block">
+    <section class="py-5 d-none d-lg-block">
         <div class="container">
             <h2 class="text-center fw-bold fs-2 text-capitalize mb-4">Trusted by over 800+ companies</h2>
             <div class="row row-cols-6 align-items-center">

@@ -9,7 +9,7 @@ body {
 .banner-caption {
     position: absolute;
     inset: 0;
-    background-color: rgba(29, 29, 29, 70%);
+    background-color: rgba(29, 29, 29, 50%);
 }
 
 .mobile-only {
